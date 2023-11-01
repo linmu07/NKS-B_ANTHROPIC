@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>NKS-B_ANTROPIC_Updates_2023-10</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Updates of NKS-B ANTROPIC project</h1>
+
+<h2 id="toc_1"><em>Oct, 2023: WP1 - Hindcast simulation</em></h2>
+
+<h2 id="toc_2">1. Methodology</h2>
+
+<h3 id="toc_3">1.1. Main tasks of WP1:</h3>
+
+<ol>
+<li>Evaluate NorESM by the observations of radiotracers and chemical tracers; </li>
+<li>Investigate historical hydrodynamics with evaluate modeling results</li>
+</ol>
+
+<h3 id="toc_4">1.2. Model setup</h3>
+
+<ul>
+<li><strong>NorESM:</strong> Ocean-ice configuration</li>
+<li><strong>Time period:</strong> 1945 - near present</li>
+</ul>
+
+<h3 id="toc_5">1.3. Tracer Setup</h3>
+
+<h4 id="toc_6">1.3.1. Radiotracers:</h4>
+
+<ul>
+<li><p><strong>Reprocessing plants:</strong> liquid discharges from two European nuclear reprocessing plants and Sellafield and La Hague</p>
+
+<ol>
+<li><strong>Tc-99, I-129 &amp; Cs-137:</strong> documented discharge data for Sellafield since 1952 and for La Hague since 1966 (HELCOM, OSPAR, and RADD databases)</li>
+<li><strong>U-236:</strong> a) documented discharge data for La Hague since 1966 (HELCOM databases);b) reconstructed discharges data for Sellafield and La Hague since 1971 (Castrillejo et al., 2020)</li>
+</ol></li>
+<li><p><strong>Global fallout:</strong> atmospheric depostion from nuclear weapon testing</p>
+
+<ul>
+<li><strong>Cs-137 &amp; U-236:</strong> resolved spatiotemporal deposition pattern (UNSCEAR 2000)</li>
+</ul></li>
+</ul>
+
+<h4 id="toc_7">1.3.2. <strong>Vitual traers:</strong></h4>
+
+<ul>
+<li><strong>Water masses in AO:</strong> constant concentrations in entering water
+
+<ul>
+<li>Pacific water: </li>
+<li>Atlantic water (via Fram Strait &amp; Barent Sea)</li>
+<li>Fresh water</li>
+</ul></li>
+<li><strong>Point sources:</strong> constent discharges
+
+<ul>
+<li>Sellafield</li>
+<li>La Hague</li>
+<li>Fukushima</li>
+</ul></li>
+</ul>
+
+<h2 id="toc_8">2. Results</h2>
+
+<h3 id="toc_9">2.1. Radiotracer transport</h3>
+
+<h4 id="toc_10">2.2.1 Surface distribution</h4>
+
+<table>
+<thead>
+<tr>
+<th>RP-derived Tc-99</th>
+<th>RP-derived I-129</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_trc_RPTc99_lite.mp4"/></td>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_trc_RPI129_lite.mp4"/></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>RP-derived Cs-137</th>
+<th>GF-derived Cs-137</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_trc_RPCs137_lite.mp4"/></td>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_trc_GFCs137_lite.mp4"/></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_11">2.2. NorESM evaluation</h3>
+
+<h4 id="toc_12">2.2.1 Scatter data</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Tc-99 (all basins)</th>
+<th>I-129 (all basins)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Spatial distribution</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_spat_Tc99.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_spat_I129.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Observation vs. simulation</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_all_Tc99.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_all_I129.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Mean normalized bias</strong></td>
+<td><strong>Overall (n=2238): 33.8%</strong> <ul><li>Baltic Sea (n=480): 63.2% <li>Arctic Ocean (n=134, outliers excluded): 43.3% <li><strong>Nordic Seas (n=612): 3.4%</strong> <li>North Atlantic (n=1011, outliers excluded): 39.1%</td>
+<td><strong>Overall  (n=852): 11.2%</strong> <ul><li>Baltic Sea (n=92): 45.3% <li>Arctic Ocean (n=323, outliers excluded): -38.8% <li><strong>Nordic Seas (n=179): 23.9%</strong> <li>North Atlantic (n=225, outliers excluded): 73.6%</td>
+</tr>
+<tr>
+<td><strong>Correlation coefficient</strong></td>
+<td><strong>Overall (n=2238): 0.427</strong> <ul><li>Baltic Sea (n=480): 0.427 <li>Arctic Ocean (n=134, outliers excluded): 0.906 <li><strong>Nordic Seas (n=612): 0.812</strong> <li>North Atlantic (n=1011, outliers excluded): 0.292</td>
+<td><strong>Overall  (n=852): 0.795</strong> <ul><li>Baltic Sea (n=92): 0.531 <li>Arctic Ocean (n=323, outliers excluded): 0.529 <li><strong>Nordic Seas (n=179): 0.830</strong> <li>North Atlantic (n=225, outliers excluded): 0.757</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: center">I-129 (North Atlantic)</th>
+<th style="text-align: center">I-129 (Arctic Ocean)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Latitude</strong></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_NA_Latitude.bmp" alt=""></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_AO_Latitude.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Longitude</strong></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_NA_Longitude.bmp" alt=""></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_AO_Longitude.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Depth</strong></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_NA_Depth.bmp" alt=""></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_AO_Depth.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Year</strong></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_NA_Year.bmp" alt=""></td>
+<td style="text-align: center"><img src="./Updates_2023-10/01_figure/hist_scat_trc_valid_bs_I129_AO_Year.bmp" alt=""></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Summary:</strong></p>
+
+<ol>
+<li>NorESM has the best performance in the Nordic Seas (low MNB and high r);</li>
+<li>High NBs and low r are observed in the European marginal seas, such as the Danish Straits and the British coast </li>
+<li>Low NBs are observed in the deep water of the Canada Basin (probably due to slower advection in model).</li>
+</ol>
+
+<h4 id="toc_13">3.2.2 Temporal evolution</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Tc-99</th>
+<th>I-129</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Station location</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_st_map_trc_Tc99.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_st_map_trc_I129.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Temporal evolution</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_trc_Tc99.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_trc_I129.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Mean normalized bias</strong></td>
+<td><li>Danish Straits surf. (n=164): 39.7% <li>Danish Straits bo. (n=37): -19.2% <li>SW Norwegian Coast (n=81): 28.9% <li>NW Norwegian Coast (n=159): -38.3% <li>Barent Sea (n=42): 35.8% <li>Denmark Strait (n=33): -11.3%</td>
+<td><li>Danish Straits surf.(n=46): -23.2% <li>SW Norwegian Coast (n=19): -12.9%</td>
+</tr>
+<tr>
+<td><strong>Correlation coefficient</strong></td>
+<td><li>Danish Straits surf. (n=164): 0.166 <li>Danish Straits bo. (n=37): 0.428 <li>SW Norwegian Coast (n=81): 0.418 <li>NW Norwegian Coast (n=159): 0.753 <li>Barent Sea (n=42): 0.681 <li>Denmark Strait (n=33): not corr.</td>
+<td><li>Danish Straits surf.(n=46): 0.753 <li>SW Norwegian Coast (n=19): 0.923</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Summary:</strong></p>
+
+<ol>
+<li>Low r are observed at the stations of the European marginal seas.</li>
+<li>MNBs are acceptable at all stations;</li>
+</ol>
+
+<h3 id="toc_14">3.3 Point-source releases</h3>
+
+<h4 id="toc_15">3.3.1 Spatial distribution</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Surf. tracer age</th>
+<th>Surf. transfer factor (no decay)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Sellafield</strong></td>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_RP_age_SF_lite.mp4"/></td>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_RP_dil_SF_lite.mp4"/></td>
+</tr>
+<tr>
+<td><strong>La Hague</strong></td>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_RP_age_LH_lite.mp4"/></td>
+<td><video style="width:100%" controls src="./Updates_2023-10/02_video/hist_surf_RP_dil_LH_lite.mp4"/></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="toc_16">3.3.2 Temporal evolution</h4>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Surf. tracer age</th>
+<th>Surf. transfer factor (no decay)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Station location</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_st_map_RP.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_st_map_RP.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Danish Straits</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_3.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_3.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>SW Norwegian Coast</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_4.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_4.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>NW Norwegian Coast</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_5.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_5.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>Bear Island</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_6.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_6.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>E Fram Strait</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_7.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_7.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>W Fram Strait</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_8.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_8.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>E Greenland Coast</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_9.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_9.bmp" alt=""></td>
+</tr>
+<tr>
+<td><strong>S Greenland Coast</strong></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_age_10.bmp" alt=""></td>
+<td><img src="./Updates_2023-10/01_figure/hist_timser_RP_dil_10.bmp" alt=""></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Summary:</strong></p>
+
+<ol>
+<li>Dischages from La Hague has 1 year more transit time than thoes from Sellafield.</li>
+<li>A branch of Sellafield discharges transport across the North Atlantic reaching S Greenland directly.</li>
+</ol>
+
+<h3 id="toc_17">3.5 Water masses in Arctic (to be updated)</h3>
+
+<h2 id="toc_18">4. Next Step</h2>
+
+<ol>
+<li>Re-run WP1 for the vitual tracers of AO water masses;</li>
+<li>Re-run WP1 for U-236 discharges from RPs;</li>
+<li>Prepare source-term files and move on to WP2.</li>
+</ol>
+
+
+
+
+</body>
+
+</html>
